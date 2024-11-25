@@ -1,0 +1,36 @@
+/* Navbar container styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling the heading */
+  .navbar h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Navigation links container */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Styling for individual links */
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for links */
+  .nav-links a:hover {
+    color: #ff9800;
+  }
+  
