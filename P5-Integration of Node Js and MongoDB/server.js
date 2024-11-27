@@ -95,7 +95,7 @@ app.delete('/:id',async(req,res)=>{
 
 
 
-mongoose.connect('mongodb+srv://karanpresha:rJ3QUhliHSdkQ3Wk@cluster0.yg2it.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').then(()=>{console.log("Connected to MongoDB")}).catch((err)=>{console.log(err)})
+mongoose.connect('your_mongodb_uri').then(()=>{console.log("Connected to MongoDB")}).catch((err)=>{console.log(err)})
 
 app.listen(PORT,(req,res)=>[
     console.log(`Server is running on port ${PORT}`)
