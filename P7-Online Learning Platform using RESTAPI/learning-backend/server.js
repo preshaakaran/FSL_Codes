@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Updated MongoDB connection without deprecated options
-mongoose.connect('mongodb+srv://karanpresha:rJ3QUhliHSdkQ3Wk@cluster0.yg2it.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('your_mongodb_uri')
     .then(() => console.log('Successfully connected to MongoDB.'))
     .catch((err) => console.error('Error connecting to MongoDB:', err));
 
